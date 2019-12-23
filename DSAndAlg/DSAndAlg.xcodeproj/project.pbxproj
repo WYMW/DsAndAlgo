@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA220D3723B03185004D20FF /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = CA220D3623B03185004D20FF /* LinkList.c */; };
 		CA3C097C23705895007BDC18 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA3C097B23705895007BDC18 /* main.c */; };
+		CA3C098523706D82007BDC18 /* LineList.c in Sources */ = {isa = PBXBuildFile; fileRef = CA3C098423706D82007BDC18 /* LineList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA220D3523B03185004D20FF /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		CA220D3623B03185004D20FF /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
 		CA3C097823705895007BDC18 /* DSAndAlg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSAndAlg; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3C097B23705895007BDC18 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CA3C098323706D82007BDC18 /* LineList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineList.h; sourceTree = "<group>"; };
+		CA3C098423706D82007BDC18 /* LineList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LineList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,21 @@
 		CA3C097A23705895007BDC18 /* DSAndAlg */ = {
 			isa = PBXGroup;
 			children = (
+				CA3C098223706D49007BDC18 /* Liner_List */,
 				CA3C097B23705895007BDC18 /* main.c */,
 			);
 			path = DSAndAlg;
+			sourceTree = "<group>";
+		};
+		CA3C098223706D49007BDC18 /* Liner_List */ = {
+			isa = PBXGroup;
+			children = (
+				CA3C098323706D82007BDC18 /* LineList.h */,
+				CA3C098423706D82007BDC18 /* LineList.c */,
+				CA220D3523B03185004D20FF /* LinkList.h */,
+				CA220D3623B03185004D20FF /* LinkList.c */,
+			);
+			path = Liner_List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3C097C23705895007BDC18 /* main.c in Sources */,
+				CA220D3723B03185004D20FF /* LinkList.c in Sources */,
+				CA3C098523706D82007BDC18 /* LineList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

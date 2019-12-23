@@ -7,9 +7,16 @@
 //
 
 #include <stdio.h>
+#include "LineList.h"
+#include "LinkList.h"
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    int a[10] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+    LinkList *header = createLinkList(a, sizeof(a) / sizeof(a[0]));
+
+    printLinkList(header);
+    
 }
